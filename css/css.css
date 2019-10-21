@@ -1,0 +1,214 @@
+*
+{
+    box-sizing: border-box;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#party
+{
+    min-height: 660px;
+    width: 100%;
+    background-image: url(../pics/2.jpg);
+    background-size: 100% 100%;
+    overflow: hidden;
+}
+
+
+#party-bg
+{
+     min-height: 660px;
+    width: 100%;
+    background-color: rgba(214, 46, 51 , 0.6);
+}
+
+.caption h1
+{
+    padding-top: 200px;
+    font-size: 60px;
+    font-weight: 500;
+    line-height: 66px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.caption h5
+{
+    text-align: center;
+    padding: 0 0 10px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #ffffff;
+}
+#open
+{
+    position: relative;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 43px;
+    color: white;
+    cursor: pointer;
+}
+.side-nav
+{
+    width: 250px;
+    min-height: 100%;
+    background-color: #414658;
+    position: fixed;
+    top: 0;
+    display: none;
+    z-index: 123456789;
+}
+
+
+#cross
+{
+    color: white;
+    font-size: 24px;
+    line-height: 51px;
+    position: relative;
+    top: 30;
+    left: 200;
+}
+.side-nav ul li
+{
+    color: #ffffff;
+    padding: 18px 8px;
+    padding-left: 40px;
+
+}
+.side-nav ul li a:hover
+{
+
+Color:rgba(214, 46, 51, 0.4);
+    transition: .2s;
+}
+.side-nav i:hover
+{
+
+Color:rgba(214, 46, 51, 0.4);
+    transition: .3s;
+}
+.side-nav a
+{
+    font-size: 25px;
+    line-height: 36px;
+    font-weight: 400;
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+}
+
+#details
+{
+    margin: 100px auto;
+    width: 50%;
+    background-color: #ddd;
+}
+
+
+#details h3
+{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 26px;
+    padding: 10px;
+    color: #ffffffff;
+    background-color: #e88;
+    cursor: pointer;
+}
+
+#myText
+{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color:#333333;
+    display: none;
+}
+
+.timer
+{
+    min-height: 330px;
+    background-image: url(../pics/1.jpg);
+    background-size: 100% 100%;
+   
+}
+
+#clock
+{
+    width: 500px;
+    margin: auto;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: white;
+}
+
+.timer-bg
+{
+    background-color: rgba(214, 46, 51 , 0.6);
+    min-height: 330px;
+}
+
+#contact
+{
+        margin-top: 100px;
+}
+.head p 
+{
+   color: #999;
+}
+.main-text p
+{
+    color: #999;
+    font-size: 16px;
+    font-weight: 400;
+}
+.main-text h3
+{
+    font-size: 18px;
+    font-weight: 700;
+}
+.texting
+{
+    color: #999;
+}
+.icons i 
+{
+    font-size: 19px;
+    margin-right: 10px;
+    font-weight: 400;
+    color: #999;
+    border: 1px solid #999;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    width: 40px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.icons i:hover
+{
+    color: white;
+    background-color: rgb(214, 46, 51); 
+}
+
+.inp-lg
+{
+    height: 46px;
+    padding: 10px 16px;
+    line-height: 1.3333333;
+}
+
+textarea
+{
+    height: 200px;
+}
+
+button
+{
+    background-color: #D62E33;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+}
